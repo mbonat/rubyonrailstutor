@@ -10,9 +10,13 @@ I demonstrate, explain and then each person in turn replicates.  If you don't kn
 LEARNING GOALS
   - irb vs script.rb
   - variable instantiation
+
 ```ruby
-p something
+def method1
+  p something
+end
 ```
+
   - string manipulation  
   - string interpolation
   - array manipulation, array traversal
