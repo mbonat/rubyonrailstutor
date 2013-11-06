@@ -2,7 +2,7 @@
 ##STRINGS, HASHES, ARRAYS
 
 ### CLASS STYLE
-I demonstrate, explain and then each person in turn replicates.  If you don't know how it works, pay attention and learn from others, if you do know how it workes, challenge yourself by making sure everyeone else in the group can do it, extra points, find John's knowledge edges about these topics.  
+I demonstrate, explain and then each person in turn replicates.  If you don't know how something works, pay attention and learn, if you do know how it works, challenge yourself by making sure everyeone else in the group can do it, help others extend their learning edges.   Extra points, good for free beer, find John's knowledge edges on these topics.  
 
 
 
@@ -11,13 +11,26 @@ I demonstrate, explain and then each person in turn replicates.  If you don't kn
   - variable instantiation
 
 ```ruby
-def method1
-  p something
-end
+name = "john"
 ```
 
   - string manipulation  
+
+```ruby
+name = "john".reverse
+p name
+```
+
   - string interpolation
+
+  ```ruby
+  first = "john"
+  last = "davison"
+  full_name = first + last
+  # why doesn't the '+' try to 'add' the names ? 
+  p full_name
+  ```
+
   - array manipulation, array traversal
   - hash manipulation, hash traversal, symbols, k/v pairs
   - use of ruby enumeratives/enumerables
