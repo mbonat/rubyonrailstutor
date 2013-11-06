@@ -31,14 +31,35 @@ I demonstrate, explain and then each person in turn replicates.  If you don't kn
   p full_name
   ```
 
+  - how to define a function and what functions do
+
+  ```ruby
+  def example_method
+    name = "john"
+    p "my name is #{name}"
+  end
+  ```
+  - return values, explicit and implicit
+
+  ```ruby
+  def example_method
+    name = "sarah"
+    p name
+    "fred"
+  end
+  ```
+
   - array manipulation, array traversal
+
+  ```ruby
+
+  ```
+
   - hash manipulation, hash traversal, symbols, k/v pairs
   - use of ruby enumeratives/enumerables
   - understand the difference between 'indexed' arrays and unsorted hashes
-  - how to define a function and what functions do
   - how to pass arguments to a function
   - if else control flow
-  - return values, explicit and implicit
   - how to use .map, .each, .select, .gsub, .reverse
   - what is the difference between 1 and "1"
   - what does nil mean ?
