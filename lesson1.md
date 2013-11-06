@@ -10,16 +10,16 @@ I demonstrate, explain and then each person in turn replicates.  If you don't kn
   - irb vs script.rb
   - variable instantiation
 
-```ruby
-name = "john"
-```
+  ```ruby
+  name = "john"
+  ```
 
   - string manipulation  
 
-```ruby
-name = "john".reverse
-p name
-```
+  ```ruby
+  name = "john".reverse
+  p name
+  ```
 
   - string interpolation
 
