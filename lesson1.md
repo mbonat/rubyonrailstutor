@@ -10,6 +10,7 @@ I demonstrate, explain and then each person in turn replicates.  If you don't kn
 LEARNING GOALS
   - irb vs script.rb
   - variable instantiation
+
 ```ruby
 def method1
   p something
