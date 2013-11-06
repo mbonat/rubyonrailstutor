@@ -2,7 +2,7 @@ RUBYONRAILSTUTOR.COM - LESSON 1
 STRINGS, HASHES, ARRAYS
 
 CLASS STYLE
-  ### I demonstrate, explain and then each person in turn replicates.  If you don't know how it works, pay attention and learn from others, if you do know how it workes, challenge yourself by making sure everyeone else in the group can do it, extra points, find John's knowledge edges about these topics.  
+I demonstrate, explain and then each person in turn replicates.  If you don't know how it works, pay attention and learn from others, if you do know how it workes, challenge yourself by making sure everyeone else in the group can do it, extra points, find John's knowledge edges about these topics.  
 =====
 
 
@@ -10,6 +10,9 @@ CLASS STYLE
 LEARNING GOALS
   - irb vs script.rb
   - variable instantiation
+```ruby
+p something
+```
   - string manipulation  
   - string interpolation
   - array manipulation, array traversal
