@@ -1,13 +1,12 @@
-RUBYONRAILSTUTOR.COM - LESSON 1
-STRINGS, HASHES, ARRAYS
+#RUBYONRAILSTUTOR.COM - LESSON 1
+##STRINGS, HASHES, ARRAYS
 
-CLASS STYLE
+### CLASS STYLE
 I demonstrate, explain and then each person in turn replicates.  If you don't know how it works, pay attention and learn from others, if you do know how it workes, challenge yourself by making sure everyeone else in the group can do it, extra points, find John's knowledge edges about these topics.  
-=====
 
 
 
-LEARNING GOALS
+### LEARNING GOALS
   - irb vs script.rb
   - variable instantiation
 
