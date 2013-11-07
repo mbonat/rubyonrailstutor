@@ -163,10 +163,16 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   john = names.select {|name| name == "john"}
   p john
   ```
-
   
-  - how to use .map, .each, .select, .gsub, .reverse
   - hash manipulation, hash traversal, symbols, k/v pairs
+  ```ruby
+  people = { john: "davison", mike: "the mechanic", sally: "fields"}
+  p people
+  person = { first: "john", last: "davison", }
+  # what is the element ':first' called ? 
+  p person[:first]
+
+  ```
   - understand the difference between 'indexed' arrays and unsorted hashes
 
   ```ruby
