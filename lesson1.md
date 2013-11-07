@@ -46,13 +46,17 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   first = "john"
   last = "davison"
   full_name = first + last
+
   # why doesn't the '+' try to 'add' the names ? 
+
   p full_name
   ```
 
   1. how to define a function and what functions do
 
   ```ruby
+  #wave if your like 'whats a function?' !!!
+
   def example_method
     name = "john"
     p "my name is #{name}"
@@ -67,13 +71,16 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
     p name
     "fred"
   end
+  
   #versus
+
   def example_method2
     name = "sarah"
     p name
     return name
     "fred"
   end
+
   #what does it mean to 'return' something?
   ```
 
@@ -138,21 +145,35 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
 
   ```ruby
   names = [ "jim", "john", "erik", "michelle"]
+
   # how to view the first name ?
+
   p names[0]
   # arrays are 'zero' index, ie, each name corresponds to an integer
+
   # starting at 0
+
   # how to view the last name ?
+
   p names[-1]
+
   # whats the difference? 
+
   p names[3]
+
   # how to change jim to jake ? 
+
   names[0] = "jake"
   p names
+  
   # how to show the first 2 names ? 
+
   p names[0..1]
+
   # what is .. ? 
+
   # what do the brackets mean when written like names[ ] ?
+
   # what is the purpose of an array ?
   ```
 
@@ -163,7 +184,9 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   new_names = names.each do |n|
     p n.reverse
   end
+
   #will the below print true or false ? (...congruency... woohahaha)
+
   p names == new_names
   actually_new_names = names.map do |n|
     n.reverse
@@ -182,12 +205,16 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   p people
   person = { first: "john", last: "davison", first: "john", last: "davison" }
   p person
+
   # why does "first" only get printed once ? 
+
   # what is the element ':first' called ? 
+
   person = { first: "john", last: "davison" }
   p person[:first]
   first_names = person.keep_if {|key, value| key == :first}
-  #is that even useful ? 
+
+  #is the above even useful ? 
 
   ```
 
