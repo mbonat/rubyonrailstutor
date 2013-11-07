@@ -30,12 +30,19 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   name = "john".reverse
   p name
   messed_up_name = "j*o*h*n"
+
   # how to remove ALL the '*' from messed_up_name ?
+
   p messed_up_name.gsub("*", "")
+
   #how to find things ? 
+
   really_messed_up_name = "johnthecookdavison"
+
   # how to find if 'thecook' exists inside really_messed_up_name ? 
+
   p really_messed_up_name.match("thecook")
+
   # bonus points, look up .match , .sub, .gsub and begin to learn about regular expressions.. 
   # http://rubular.com/
   ```
