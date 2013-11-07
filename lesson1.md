@@ -194,7 +194,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   1. contemplate the difference between 'indexed' arrays and unsorted hashes
   1. build and manipulate nested arrays, hashes
   
-  ### EXERSCISES FOR REPETITION
+  ### EXERCISES FOR REPETITION
 
   * create a method that does something to a string, add a string to an array, call the method you just made on that string, look what a regular expression is, try using .match() on the string (will get beer points).
   * create a method that accepts a string, make sure the string has characters like %,$,#,@ in it, return the same string with any special characters removed.(very useful for internet forms...)
