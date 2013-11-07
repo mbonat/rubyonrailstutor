@@ -195,12 +195,12 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   1. build and manipulate nested arrays, hashes
   
   ### EXERSCISES FOR REPETITION
-  * create a method that does something to a string, add a string to an array, call the method you just made on that string, look what a regular expression is, try using .match() on the string (will get beer points).
-  * create a method that accepts a string, make sure the string has characters like %,$,#,@ in it, return the same string with any special characters removed.(very useful for internet forms...)
-  * build a method that accepts as an argument, an array that looks like [1, [2], {three: "3"}] and returns [ Integer, Array, Hash ]
-  * build a method that accepts an array that looks like [["john", "the cook"], ["mike", "the builder"], ["sally", "the coder"]] and returns {{first: "john", job: "the cook"}, {first: "mike", job: "the builder"}, { first: "sally", job: "the coder"}}
-  * build a method, create an array that looks something like [1,2,3,4,5,6,7,8,9] that returns [[2,4,6,8], [1,3,5,7,9]], way extra points, create rspec tests that ensure this behaves as written.
-  * go find a piece of data related to something you want to build a prototype around, put that data into a data form that makes sense, ie, string, hash, array, integer, whatever, create a method that manipulates that piece of data in a way that enhances its value to you and potentialy to someone you might communicate it too, present your method to the group, explaining how it works and how you think the method adds value to the data. (this is not trivial, it shows how just programming alone doesn't add value, value relates to context....)
+  - create a method that does something to a string, add a string to an array, call the method you just made on that string, look what a regular expression is, try using .match() on the string (will get beer points).
+  - create a method that accepts a string, make sure the string has characters like %,$,#,@ in it, return the same string with any special characters removed.(very useful for internet forms...)
+  - build a method that accepts as an argument, an array that looks like [1, [2], {three: "3"}] and returns [ Integer, Array, Hash ]
+  - build a method that accepts an array that looks like [["john", "the cook"], ["mike", "the builder"], ["sally", "the coder"]] and returns {{first: "john", job: "the cook"}, {first: "mike", job: "the builder"}, { first: "sally", job: "the coder"}}
+  - build a method, create an array that looks something like [1,2,3,4,5,6,7,8,9] that returns [[2,4,6,8], [1,3,5,7,9]], way extra points, create rspec tests that ensure this behaves as written.
+  - go find a piece of data related to something you want to build a prototype around, put that data into a data form that makes sense, ie, string, hash, array, integer, whatever, create a method that manipulates that piece of data in a way that enhances its value to you and potentialy to someone you might communicate it too, present your method to the group, explaining how it works and how you think the method adds value to the data. (this is not trivial, it shows how just programming alone doesn't add value, value relates to context....)
 
 
 
