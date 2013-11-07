@@ -25,6 +25,9 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   ```ruby
   name = "john".reverse
   p name
+  messed_up_name = "j*o*h*n"
+  # how to remove ALL the '*' from messed_up_name ?
+  p messed_up_name.gsub("*", "")
   ```
 
   - string interpolation
