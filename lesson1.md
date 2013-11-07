@@ -1,11 +1,12 @@
 #RUBYONRAILSTUTOR.COM - LESSON 1
 ##STRINGS, HASHES, ARRAYS
 
-### CLASS STYLE
+### CLASS FORMAT
 
-I demonstrate, explain and then each person in turn replicates.  If you don't know how something works, pay attention and learn, if you do know how it works, challenge yourself by making sure everyeone else in the group can do it, help others extend their learning edges.   
+I demonstrate, explain and then each person in turn replicates.  If you don't know how something works, please pay attention and learn, if you do know how it works, challenge yourself by making sure everyeone else in the group can do it, help others extend their learning edges.   
 
-Extra points, good for free beer, find John's knowledge edges on these topics, in a nice friendly way, expose his knowledge edges, learn about the process of realizing that even after doing this 'programming thing' every day for last 555+ days, he too is a beginer.  Even more important, start to think about why retaining a beginner's mind forms the most adaptive, fundamentally powerful way to approach problem solving.   
+Extra points, good for free beer, find John's knowledge edges on these topics, in a nice friendly way, expose his knowledge edges, learn about the process of realizing that even after doing this 'programming thing' every day for last 555+ days, he too is a beginner.  Even more important, start to think about why retaining a beginner's mind forms the most adaptive, fundamentally powerful way to approach problem solving.   
+
 
 
 
@@ -13,6 +14,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
 
   - irb vs script.rb
   - double spacing and indentation, do it. no questions asked.
+  - learn to use http://www.ruby-doc.org/core-2.0.0/
 
   - variable instantiation
 
@@ -28,6 +30,12 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   messed_up_name = "j*o*h*n"
   # how to remove ALL the '*' from messed_up_name ?
   p messed_up_name.gsub("*", "")
+  #how to find things ? 
+  really_messed_up_name = "johnthecookdavison"
+  # how to find if 'thecook' exists inside really_messed_up_name ? 
+  p really_messed_up_name.match("thecook")
+  # bonus points, look up .match , .sub, .gsub and begin to learn about regular expressions.. 
+  # http://rubular.com/
   ```
 
   - string interpolation
