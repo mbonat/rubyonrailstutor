@@ -13,7 +13,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
 
 
 ### TACTICAL LEARNING GOALS
-  ###### 'It's called the tactical turtle-neck, I invented it!' - @codenameduchess
+###### 'It's called the tactical turtle-neck, I invented it!' - @codenameduchess
 
   1. irb vs script.rb
 
