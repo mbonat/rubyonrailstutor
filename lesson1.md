@@ -12,19 +12,19 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
 
 ### LEARNING GOALS
 
-  - irb vs script.rb
+  1. irb vs script.rb
 
-  - double spacing and indentation, do it. no questions asked.
+  1. double spacing and indentation, do it. no questions asked.
 
-  - learn to use http://www.ruby-doc.org/core-2.0.0/
+  1. learn to use http://www.ruby-doc.org/core-2.0.0/
 
-  - variable instantiation
+  1. variable instantiation
 
   ```ruby
   name = "john"
   ```
 
-  - string manipulation  
+  1. string manipulation  
 
   ```ruby
   name = "john".reverse
@@ -40,7 +40,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   # http://rubular.com/
   ```
 
-  - string interpolation
+  1. string interpolation
 
   ```ruby
   first = "john"
@@ -50,7 +50,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   p full_name
   ```
 
-  - how to define a function and what functions do
+  1. how to define a function and what functions do
 
   ```ruby
   def example_method
@@ -59,7 +59,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   end
   ```
 
-  - return values, explicit and implicit
+  1. return values, explicit and implicit
 
   ```ruby
   def example_method
@@ -77,7 +77,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   #what does it mean to 'return' something?
   ```
 
-  - how to pass arguments to a function
+  1. how to pass arguments to a function
 
   ```ruby
   def do_a_dance(dance1, dance2)
@@ -86,7 +86,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   end
   ```
 
-  - ruby and parethesis, or lack there of
+  1. ruby and parethesis, or lack there of
 
   ```ruby
   def do_a_dance dance1, dance2 
@@ -95,7 +95,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   end
   ```
 
-  - what is the difference between 1 and "1"
+  1. what is the difference between 1 and "1"
 
   ```ruby
   p "1"
@@ -104,7 +104,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   p 1.class
   ```
 
-  - if else control flow
+  1. if else control flow
 
   ```ruby
 
@@ -118,7 +118,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
 
   ```
 
-  - what does nil mean ?
+  1. what does nil mean ?
   ### http://amydoesruby.blogspot.com/2006/03/what-does-nil-mean.html
   ###### "Thanks for answering, Gerg, but honestly, it sounds like this in my head when I read it: "blah blah blah bladdy blah blah.""
 
@@ -134,7 +134,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   ```
 
 
-  - array manipulation, array traversal
+  1. array manipulation, array traversal
 
   ```ruby
   names = [ "jim", "john", "erik", "michelle"]
@@ -156,7 +156,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   # what is the purpose of an array ?
   ```
 
-  - use of ruby enumeratives/enumerables
+  1. use of ruby enumeratives/enumerables
 
   ```ruby
   names = [ "jim", "john", "erik", "michelle"]
@@ -174,7 +174,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   p john
   ```
   
-  - hash manipulation, hash traversal, symbols, k/v pairs
+  1. hash manipulation, hash traversal, symbols, k/v pairs
 
   ```ruby
 
@@ -191,8 +191,8 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
 
   ```
 
-  - understand the difference between 'indexed' arrays and unsorted hashes
-  - let's build and manipulate nested hashes
+  1. contemplate the difference between 'indexed' arrays and unsorted hashes
+  1. build and manipulate nested arrays, hashes
   
   ### EXERSCISES FOR REPETITION
   * create a method that does something to a string, add a string to an array, call the method you just made on that string, look what a regular expression is, try using .match() on the string (will get beer points).
