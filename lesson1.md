@@ -12,7 +12,8 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
 
 
 
-### LEARNING GOALS
+### TACTICAL LEARNING GOALS
+  ###### 'It's called the tactical turtle-neck, I invented it!' - @codenameduchess
 
   1. irb vs script.rb
 
@@ -49,16 +50,21 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   # http://rubular.com/
   ```
 
-  1. string interpolation
+  1. string concatination and interpolation
 
   ```ruby
   first = "john"
   last = "davison"
-  full_name = first + last
 
+  #concatenate
+  full_name = first + last
+  p full_name
   # why doesn't the '+' try to 'add' the names ? 
 
-  p full_name
+  #interporlate
+  complete_name = "#{first} #{last}"
+  p complete_name
+
   ```
 
   1. how to define a function and what functions do
