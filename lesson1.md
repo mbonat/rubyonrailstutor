@@ -13,7 +13,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
 
 ### STRATEGIC LEARNING GOALS
   1. Iteration
-  1. Congruency - 'def the quality or state of agreeing or corresponding.' 
+  1. Congruency - def 'the quality or state of agreeing or corresponding.' 
   1. "It's All Just Ruby!"
 
 ### TACTICAL LEARNING GOALS
