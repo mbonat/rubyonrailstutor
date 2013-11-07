@@ -194,7 +194,7 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   - understand the difference between 'indexed' arrays and unsorted hashes
   - let's build and manipulate nested hashes
   
-  ### REPETITION
+  ### EXERSCISES FOR REPETITION
   * create a method that does something to a string, add a string to an array, call the method you just made on that string, look what a regular expression is, try using .match() on the string (will get beer points).
   * create a method that accepts a string, make sure the string has characters like %,$,#,@ in it, return the same string with any special characters removed.(very useful for internet forms...)
   * build a method that accepts as an argument, an array that looks like [1, [2], {three: "3"}] and returns [ Integer, Array, Hash ]
