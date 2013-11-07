@@ -165,17 +165,27 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
   ```
   
   - hash manipulation, hash traversal, symbols, k/v pairs
+
   ```ruby
+
   people = { john: "davison", mike: "the mechanic", sally: "fields"}
   p people
-  person = { first: "john", last: "davison", }
+  person = { first: "john", last: "davison", first: "john", last: "davison" }
+  p person
+  # why does "first" only get printed once ? 
   # what is the element ':first' called ? 
+  person = { first: "john", last: "davison" }
   p person[:first]
+  first_names = person.keep_if {|key, value| key == :first}
+  #is that even useful ? 
 
   ```
+
   - understand the difference between 'indexed' arrays and unsorted hashes
-
-  ```ruby
-
-  ```
-
+  - let's build and manipulate nested hashes
+  
+  ### REPETITION
+  *  create a method that does something to a string, add a string to an array, call the method you just made on that string, look what a regular expression is, try using .match() on the string (will get beer points).
+  * build a method that creates an array that looks like [1, [2], {three: "3"}] that returns [ Integer, Array, Hash ]
+  * build a method that creates an array that looks like [["john", "the cook"], ["mike", "the builder"], ["sally", "the coder"]] that returns {{first: "john", job: "the cook"}, {first: "mike", job: "the builder"}, { first: "sally", job: "the coder"}}
+  * build a method, create an array that looks something like [1,2,3,4,5,6,7,8,9] that returns [[2,4,6,8], [1,3,5,7,9]]
