@@ -4,7 +4,7 @@
 ### CLASS FORMAT - DEMONSTRATE, EXPLAIN, REPLICATE
 
 ### STRATEGIC LEARNING GOALS
-1. Understand how ruby Classes orgnize ruby code into objects.
+1. Understand create build and manipulate Ruby Objects.
 
 #### SCREENCAST OF STRATEGIC LEARNING GOALS
 
