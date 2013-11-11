@@ -19,6 +19,17 @@ Extra points, good for free beer, find John's knowledge edges on these topics, i
 
 [![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/vimeolesson1.png)](https://vimeo.com/78941708)
 
+#### SCREENCASTS OF STRINGS, HASHES, ARRAYS
+
+##### STRING
+[![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/RubyonRailstutorString.jpg)](https://vimeo.com/79056946)
+
+##### ARRAY
+[![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/RubyonRailstutorArray.jpg)](https://vimeo.com/79059268)
+
+##### HASH
+[![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/RubyonRailsTutorHash.jpg)](https://vimeo.com/79061042)
+
 ### TACTICAL LEARNING GOALS
 ###### 'It's called the tactical turtle-neck, I invented it!' - @codenameduchess
 
