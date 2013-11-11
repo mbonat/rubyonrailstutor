@@ -28,12 +28,12 @@ class Room
   end
 end
 
-class Floor 
+class Floor
   attr_accessor :rooms, :capacity
 
   def initialize(capacity = nil)
     @rooms = []
-    @capacity = capacity 
+    @capacity = capacity
   end
 
   def complete?
@@ -50,7 +50,7 @@ class Floor
       @rooms.push room
       return @rooms
     else
-      return false
+      return nil
     end
   end
 end
@@ -76,7 +76,7 @@ class Building
       @floors.push floor
       return @floors
     else
-      return false
+      return nil
     end
   end
 end
