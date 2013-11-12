@@ -8,6 +8,8 @@
 
 #### SCREENCAST OF STRATEGIC LEARNING GOALS
 
+[![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/rubyobjects.jpg)](https://vimeo.com/79154085)
+
 ### TACTICAL LEARNING GOALS
 1. Build something small. 
 

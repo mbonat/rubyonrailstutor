@@ -32,6 +32,7 @@ class Floor
   attr_accessor :rooms, :capacity
 
   def initialize(capacity = nil)
+    p "this is a new floor"
     @rooms = []
     @capacity = capacity
   end
