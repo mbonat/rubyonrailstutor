@@ -1,0 +1,10 @@
+<div class ="row">
+  <div class = "large-7 columns large-centered">
+    <div class = "panel">
+      <%= form_for @message do |new_message| %>
+        <%= new_message.text_field :content, placeholder: "message content" %>
+        <%= new_message.submit class: "button small radius success" %>
+      <% end %>
+    </div>
+  </div>
+</div>
