@@ -6,6 +6,7 @@
 ##### LESSON 2, Ruby Classes and Objects.
   https://github.com/jcdavison/rubyonrailstutor/blob/master/lesson2.md
 ##### LESSON 3, The MVC roundtrip and how the internet and 'web applications' communicate.
+  https://github.com/jcdavison/rubyonrailstutor/blob/master/lesson3.md
 ##### LESSON 4, In-depth look at Rails Models.
 ##### LESSON 5, In-depth look at Rails Controllers.
 ##### LESSON 6, In-depth look at Rails Views.
