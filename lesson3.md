@@ -5,6 +5,7 @@
 
 ### STRATEGIC LEARNING GOALS
 1. Understand how information travels between the browser and server.
+1. Begin to conceptualiz the triggers that occure as the server receives a request and access a controller and how this process is basically 'ruby malleable'.
 
 #### SCREENCAST OF STRATEGIC LEARNING GOALS
 
