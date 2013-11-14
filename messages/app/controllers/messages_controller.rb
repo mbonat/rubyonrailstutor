@@ -17,7 +17,6 @@ class MessagesController < ApplicationController
   end
 
   def edit
-    binding.pry
     @message = Message.find_by_id(params[:id])
   end
 

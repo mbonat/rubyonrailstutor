@@ -1,4 +1,12 @@
 Messages::Application.routes.draw do
+  # get "ships/index"
+  # get "ships/create"
+  # get "ships/show"
+  # get "ships/update"
+  # get "ships/edit"
+  # get "ships/destroy"
+  # get "ships/new"
+  # get "ships/salute"
   resources :messages
   # get '/messages', to: "messages#index"
   # get '/messages/:id', to: "messages#show"

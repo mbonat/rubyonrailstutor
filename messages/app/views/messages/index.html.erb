@@ -11,14 +11,15 @@
     <div class = "panel">
       <% @messages.each do |message| %>
         <div class= "row">
-          <div class = "large-10 columns">
+          <div class = "large-7 columns">
             <h3>
               <%= message.content %>
             </h3>
           </div>
-          <div class="large-2 columns">
+          <div class="large-5 columns">
+            <%= link_to "show", message_path(message.id), class: "button tiny radius success"  %>
             <%= link_to "edit", edit_message_path(message.id), class: "button tiny radius success"  %>
-            <%= link_to "delete", message_path(message.id), method: "DELETE", class: "button tiny radius success"  %>
+            <%= link_to "delete", message_path(message.id), method: "DELETE", class: "button tiny radius alert"  %>
           </div>
         </div>
 
