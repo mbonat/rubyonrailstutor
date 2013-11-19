@@ -49,4 +49,6 @@
     message = Message.find_by_content("hello fun people of the world")
   ```
 
+  > remember that the local variable 'message' can point to an actual message object or an array that is a container holding many objects ie '[#<object1>, #<object2>]'
+
   ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.25.00%20AM.png)
