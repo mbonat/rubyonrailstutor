@@ -39,7 +39,7 @@
 
 1. READ a data model
 
-  > READ also can mean 'retrieve and look at', records can be retrieved in many wads, by record id, by content, by position in the database...
+  > READ also can mean 'retrieve and look at', records can be retrieved in many ways, by record id, by content, by position in the database...
 
   ```ruby
     message = Message.find(messageid)
