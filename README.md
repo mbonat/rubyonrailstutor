@@ -8,6 +8,7 @@
 ##### LESSON 3, The MVC roundtrip and how the internet and 'web applications' communicate.
   https://github.com/jcdavison/rubyonrailstutor/blob/master/lesson3.md
 ##### LESSON 4, In-depth look at Rails Models.
+  https://github.com/jcdavison/rubyonrailstutor/blob/master/lesson4.md
 ##### LESSON 5, In-depth look at Rails Controllers.
 ##### LESSON 6, In-depth look at Rails Views.
 ##### LESSON 7, Build MVC/RESTful Messages I.
