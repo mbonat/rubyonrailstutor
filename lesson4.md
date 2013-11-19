@@ -23,5 +23,17 @@
 
   > verify that everything works by entering 'rails console' and typing 'Message'
 
-![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.10.36%20AM.png)
+  ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.10.36%20AM.png)
+
+  > create a new instance of a Message object
+
+  ```ruby
+    message = Message.new(content: "hello fun people of the world")
+    message.save
+  ```
+  
+  > look for things like BEGIN, COMMIT, TRUE to know that you've saved correctly
+
+  ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.17.37%20AM.png)
+
 
