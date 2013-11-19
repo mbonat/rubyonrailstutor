@@ -37,3 +37,16 @@
   ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.17.37%20AM.png)
 
 
+1. READ a data model
+
+  > READ also can mean 'retrieve and look at', records can be retrieved in many wads, by record id, by content, by position in the database...
+
+  ```ruby
+    message = Message.find(messageid)
+    message = Message.last
+    message = Message.all.last
+    message = Message.all[-1]
+    message = Message.find_by_content("hello fun people of the world")
+  ```
+
+  ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.25.00%20AM.png)
