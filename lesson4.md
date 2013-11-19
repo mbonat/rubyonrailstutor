@@ -24,5 +24,5 @@
   > verify that everything works by entering 'rails console' and typing 'Message'
 
 ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.05.22%20AM.png
-)]
+)
 
