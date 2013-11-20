@@ -100,5 +100,6 @@
     end
   ```
 
-  > .shorten!, .remove_profanity and .add_smiles are all programmer defined messages that can be called on an instance of a Message.
+  > .shorten!, .remove_profanity and .add_smiles are all programmer defined functions that can be called on an instance of a Message.
 
+  ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.33.35%20PM.png)
