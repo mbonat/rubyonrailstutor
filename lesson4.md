@@ -7,6 +7,10 @@
 1.  Understand how CREATE, READ, UPDATE, DESTROY [ CRUD ] an instance of a data model.
 1.  Begin to understand how Active Record govern SQL relatioships between models.
 
+### CRITICAL RESOURCES
+
+http://guides.rubyonrails.org/migrations.html
+
 ### TACTICAL LEARNING GOALS
 1. CREATE a data model
 
