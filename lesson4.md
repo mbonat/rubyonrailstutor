@@ -10,7 +10,9 @@
 ### CRITICAL RESOURCES
 
 http://guides.rubyonrails.org/association_basics.html
+
 http://guides.rubyonrails.org/migrations.html
+
 http://guides.rubyonrails.org/active_record_querying.html
 
 ### TACTICAL LEARNING GOALS
