@@ -1,4 +1,5 @@
 class Message < ActiveRecord::Base
+  belongs_to :person
   def shorten!
     self.content = self.content[0..119]
   end

@@ -1,11 +1,11 @@
 #RUBYONRAILSTUTOR.COM
-##MODELS, MODELS, MODELS
+##MODELS
 
-### CLASS FORMAT - DEMONSTRATE, EXPLAIN, REPLICATE
 
 ### STRATEGIC LEARNING GOALS
 1.  Understand what it means to instantiate an object that inherits from an active record object.
 1.  Understand how CREATE, READ, UPDATE, DESTROY [ CRUD ] an instance of a data model.
+1.  Begin to understand how Active Record govern SQL relatioships between models.
 
 ### TACTICAL LEARNING GOALS
 1. CREATE a data model
@@ -103,3 +103,48 @@
   > .shorten!, .remove_profanity and .add_smiles are all programmer defined functions that can be called on an instance of a Message.
 
   ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.33.35%20PM.png)
+
+1.  Understand how to create one to many relationship between different models, notice that we are creating another migration to add the person_id attribute to messages.  Active record doesn't immediately create that for us but when the attributes are present, and model definitions made correctly, Active Record will give us access to the linked objects.  
+
+    ```ruby
+
+    rails g model person name:string
+
+    rails g migration AddPersonIdToMessage
+
+    bundle exec rake db:migrate
+
+    ```
+
+    > Active Record provides many useful methods and tools to create relationships between models. Consider the below model definitions, not that in Person 'has_many' :messages and Message 'belongs_to' :person
+
+    ```ruby
+
+    class Person < ActiveRecord::Base
+      has_many :messages
+    end
+
+    class Message < ActiveRecord::Base
+      belongs_to :person
+      def shorten!
+        self.content = self.content[0..119]
+      end
+
+      def remove_profanity
+        ['bad word', 'another bad word','and another' ].each do |profanity|
+          self.content.gsub!("#{profanity}", "")
+        end
+      end
+
+      def add_smiles
+        return if content.empty?
+        self.content << ":)"
+      end
+    end
+
+    ```
+
+    > Active record now give us access to the relationship created between Person and Message.
+
+    ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.57.19%20PM.png)
+
