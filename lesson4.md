@@ -4,6 +4,7 @@
 ### CLASS FORMAT - DEMONSTRATE, EXPLAIN, REPLICATE
 
 ### STRATEGIC LEARNING GOALS
+1.  Understand what it means to instantiate an object that inherits from an active record object.
 1.  Understand how CREATE, READ, UPDATE, DESTROY [ CRUD ] a data model.
 
 ### TACTICAL LEARNING GOALS
@@ -67,7 +68,7 @@
 
 1. DESTROY a data model
 
-  > In order to DESTROY a model, you must first retrieve the model, then invoke a function on it destroys the entire object.
+  > In order to DESTROY a model, you must first retrieve the model, then invoke a function on it that destroys the entire object.
 
   ```ruby
     message = Message.last
@@ -75,3 +76,29 @@
   ```
 
   ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.09.02%20PM.png)
+
+1.  Understand how to add unique functions to a model and call them.
+
+  > Consider the below model definition, app/models/message.rb
+
+  ```ruby
+    class Message < ActiveRecord::Base
+      def shorten!
+        self.content = self.content[0..119]
+      end
+
+      def remove_profanity
+        ['bad word', 'another bad word','and another' ].each do |profanity|
+          self.content.gsub!("#{profanity}", "")
+        end
+      end
+
+      def add_smiles
+        return if content.empty?
+        self.content << ":)"
+      end
+    end
+  ```
+
+  > .shorten!, .remove_profanity and .add_smiles are all programmer defined messages that can be called on an instance of a Message.
+

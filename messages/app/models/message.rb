@@ -1,6 +1,6 @@
 class Message < ActiveRecord::Base
-  def shorten
-    self.content = self.content[0..120]
+  def shorten!
+    self.content = self.content[0..119]
   end
 
   def remove_profanity
@@ -10,6 +10,7 @@ class Message < ActiveRecord::Base
   end
 
   def add_smiles
+    return if content.empty?
     self.content << ":)"
   end
 end
