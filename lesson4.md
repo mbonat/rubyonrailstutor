@@ -52,3 +52,26 @@
   > remember that the local variable 'message' can point to an actual message object or an array that is a container holding many objects ie '[#\<object1>, #\<object2>]'
 
   ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.25.00%20AM.png)
+
+1. UPDATE a data model
+
+  > In order to UPDATE a model, you must first retrieve the model, then invoke a function on it that updates a value or attribute.
+
+  ```ruby
+    message = Message.last
+    message.content = "now the message has really changed"
+    message.save
+  ```
+
+  ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.02.11%20PM.png)
+
+1. DESTROY a data model
+
+  > In order to DESTROY a model, you must first retrieve the model, then invoke a function on it destroys the entire object.
+
+  ```ruby
+    message = Message.last
+    message.destroy
+  ```
+
+  ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.06.37%20PM.png)
