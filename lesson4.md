@@ -5,7 +5,7 @@
 
 ### STRATEGIC LEARNING GOALS
 1.  Understand what it means to instantiate an object that inherits from an active record object.
-1.  Understand how CREATE, READ, UPDATE, DESTROY [ CRUD ] a data model.
+1.  Understand how CREATE, READ, UPDATE, DESTROY [ CRUD ] an instance of a data model.
 
 ### TACTICAL LEARNING GOALS
 1. CREATE a data model
