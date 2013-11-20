@@ -74,4 +74,4 @@
     message.destroy
   ```
 
-  ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.06.37%20PM.png)
+  ![ScreenShot](https://dl.dropboxusercontent.com/u/12834645/railstutor/lessons/Screen%20Shot%202013-11-19%20at%2010.09.02%20PM.png)
