@@ -1,0 +1,4 @@
+integration, how to use the tools better, how the front end works
+build an app front start to finish
+lost some of the message related to config moving around
+
